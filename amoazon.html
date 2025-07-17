@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Amazon</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #131921;
+  color: white;
+}
+
+.top-nav {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 20px;
+  color: orange;
+}
+
+.location {
+  margin-right: 20px;
+}
+
+.search-box {
+  display: flex;
+  flex: 1;
+}
+
+.search-box select,
+.search-box input {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.search-box button {
+  padding: 8px 12px;
+  background: orange;
+  border: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.cart {
+  font-size: 18px;
+}
+
+.menu-bar {
+  background-color: #232f3e;
+}
+
+.menu-bar ul {
+  display: flex;
+  padding: 10px;
+  margin: 0;
+  list-style: none;
+  color: white;
+}
+
+.menu-bar li {
+  margin-right: 20px;
+}
+
+.menu-bar .highlight {
+  color: orange;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  background-color: #31455d;
+  color: white;
+  padding: 40px 20px;
+}
+
+.hero-text h1 {
+  font-size: 32px;
+}
+
+.hero-img img {
+  width: 300px;
+  height: auto;
+}
+
+.notice {
+  background-color: #f3f3f3;
+  padding: 15px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.notice a {
+  color: #007185;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+  background: #e3e6e6;
+}
+
+.box {
+  background: white;
+  padding: 10px;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+}
+
+.box img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+</style>
+<body>
+  <header>
+    <div class="top-nav">
+      <div class="logo">amazon</div>
+      <div class="location">Deliver to <strong>India</strong></div>
+      <div class="search-box">
+        <select>
+          <option>All</option>
+        </select>
+        <input type="text" placeholder="Search Amazon">
+        <button>🔍</button>
+      </div>
+      <div class="nav-links">
+        <div>Hello, sign in<br><strong>Account & Lists</strong></div>
+        <div>Returns<br><strong>& Orders</strong></div>
+        <div class="cart">🛒 Cart</div>
+      </div>
+    </div>
+    <nav class="menu-bar">
+      <ul>
+        <li>☰ All</li>
+        <li>Amazon Pay</li>
+        <li>Amazon miniTV</li>
+        <li>Sell</li>
+        <li>Gift Cards</li>
+        <li>Buy Again</li>
+        <li>Health, Household & Personal Care</li>
+        <li>Browsing History</li>
+        <li class="highlight">Shop deal in Electronics</li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Find gifts for<br>dads who have it all</h1>
+    </div>
+    <div class="hero-img">
+      <img src="https://i.imgur.com/Ar9zH9v.png" alt="Gifts" />
+    </div>
+  </section>
+
+  <div class="notice">
+    You are amazon.com. You can also shop on Amazon India for millions of products with fast local delivery.
+    <a href="#">Click here to go to amazon.in</a>
+  </div>
+
+  <section class="categories">
+    <div class="box">
+      <h2>Health & Personal Care</h2>
+      <img src="https://i.imgur.com/Y0B0eAn.png" alt="Health">
+    </div>
+    <div class="box">
+      <h2>Clothes</h2>
+      <img src="https://i.imgur.com/WL6AQkT.png" alt="Clothes">
+    </div>
+    <div class="box">
+      <h2>Furniture</h2>
+      <img src="https://i.imgur.com/D5U69cw.png" alt="Furniture">
+    </div>
+    <div class="box">
+      <h2>Electronics</h2>
+      <img src="https://i.imgur.com/k3O2MZf.png" alt="Electronics">
+    </div>
+  </section>
+</body>
+</html>
+
